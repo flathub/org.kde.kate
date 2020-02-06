@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.1/src/konsole-19.12.1.tar.xz",
-                    "sha256": "39797ed81c5ace12fd90f4a6e65c25d33db8e4385ab2baad2bd6a3b2db0ef075"
+                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/konsole-19.12.2.tar.xz",
+                    "sha256": "195536969ddf8eeaa02912acddc4caf5ea3d42ce794cb24f2e6b5fddf190f8b7"
                 }
             ]
         },
@@ -32,12 +32,8 @@
             "sources":  [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.1/src/kate-19.12.1.tar.xz",
-                    "sha256": "9d2401907e5b163d5af0af5b4d28383896ef709bcde7f6ee2234e1a3adc28a47"
-                },
-                {
-                    "type": "patch",
-                    "path": "oars.patch"
+                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/kate-19.12.2.tar.xz",
+                    "sha256": "b21ae8b2a5c3a5e1282d44ca5524fca56be809525d3d34660e5604c4ecc608a5"
                 }
             ]
         }
