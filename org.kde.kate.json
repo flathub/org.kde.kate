@@ -13,8 +13,20 @@
         "--device=dri",
         "--filesystem=host"
     ],
-
+    "base": "io.qt.qtwebengine.BaseApp",
+    "base-version": "5.14",
     "modules": [
+        {
+            "name": "kmarkdownwebview",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://invent.kde.org/utilities/kmarkdownwebview/-/archive/v0.5.5/kmarkdownwebview-v0.5.5.tar.gz",
+                    "sha256": "d29d77c922b01dbd1a5c30f8c193c5011606d8ca405b7921155a4ea74fb9630d"
+                }
+            ]
+        },
         {
             "name": "konsole",
             "buildsystem": "cmake-ninja",
