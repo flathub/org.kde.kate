@@ -13,17 +13,15 @@
         "--device=dri",
         "--filesystem=host"
     ],
-    "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.14",
     "modules": [
         {
-            "name": "kmarkdownwebview",
+            "name": "markdownpart",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://invent.kde.org/utilities/kmarkdownwebview/-/archive/v0.5.5/kmarkdownwebview-v0.5.5.tar.gz",
-                    "sha256": "d29d77c922b01dbd1a5c30f8c193c5011606d8ca405b7921155a4ea74fb9630d"
+                    "url": "https://download.kde.org/stable/markdownpart/0.1.0/src/markdownpart-0.1.0.tar.xz",
+                    "sha256": "29831a64548444559740bcff230c4093fbc79155be8ce6af2994f619eb7c7cc3"
                 }
             ]
         },
