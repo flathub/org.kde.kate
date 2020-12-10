@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/markdownpart/0.1.1/src/markdownpart-0.1.1.tar.xz",
-                    "sha256": "d1dd6084a8a4e936618817490a4a0e99060865b8a5eebd85d69d42036f1c658b"
+                    "url": "https://download.kde.org/stable/release-service/20.12.0/src/markdownpart-20.12.0.tar.xz",
+                    "sha256": "49d1c972a3ded86e52b464f811ec21554cc74024c967470caaa8ed1c1ba93e57"
                 }
             ]
         },
