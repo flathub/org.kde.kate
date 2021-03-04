@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.2/src/markdownpart-20.12.2.tar.xz",
-                    "sha256": "b3a05ade4a7bcb815a2c2edcfdc21ef8c627cf1aca9c4b47845d60403874d121"
+                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/markdownpart-20.12.3.tar.xz",
+                    "sha256": "74e598e1ae9331f4f442ca7cc3c988f0ec569a6579996bee92f72b22dd0179bc"
                 }
             ]
         },
@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.2/src/konsole-20.12.2.tar.xz",
-                    "sha256": "fc1bbdd4b77cc94698dd4d7b90e95577dd5cc99f3b27633a52d49177efea0873"
+                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/konsole-20.12.3.tar.xz",
+                    "sha256": "24cd42fdc4ae2e17526bfab9c5ad516bb25b22d654782e98aa52f6e39bdd138d"
                 }
             ]
         },
@@ -42,8 +42,8 @@
             "sources":  [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.2/src/kate-20.12.2.tar.xz",
-                    "sha256": "a7ee1973da3534390ba45f937fec239d56b4aa3c26ea2b63561709887fb4bfcd"
+                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/kate-20.12.3.tar.xz",
+                    "sha256": "81bc2d8afe1958186feec8b1b275da5d6eb52bd8b4fa154896d19830d628d4fd"
                 }
             ]
         }
