@@ -6,12 +6,14 @@
     "command": "kate",
     "rename-icon": "kate",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=host",
         "--share=ipc",
         "--socket=cups",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri",
-        "--filesystem=host"
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--talk-name=org.freedesktop.Flatpak"
     ],
     "modules": [
         {
