@@ -1,17 +1,19 @@
 {
     "id": "org.kde.kate",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "command": "kate",
     "rename-icon": "kate",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=host",
         "--share=ipc",
         "--socket=cups",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri",
-        "--filesystem=host"
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--talk-name=org.freedesktop.Flatpak"
     ],
     "modules": [
         {
@@ -20,8 +22,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/markdownpart-20.12.3.tar.xz",
-                    "sha256": "74e598e1ae9331f4f442ca7cc3c988f0ec569a6579996bee92f72b22dd0179bc"
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/markdownpart-22.12.3.tar.xz",
+                    "sha256": "49a22386da91f34047c1ce153952118fa6304330b58ea3d5ebaf5e634c7dffcb",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/markdownpart-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -31,19 +39,31 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/konsole-20.12.3.tar.xz",
-                    "sha256": "24cd42fdc4ae2e17526bfab9c5ad516bb25b22d654782e98aa52f6e39bdd138d"
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/konsole-22.12.3.tar.xz",
+                    "sha256": "59a9bc95446ecaeba20c04b324ce55934e9ea042ab9dbe75eb76d02b6cabf86f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/konsole-$version.tar.xz"
+                    }
                 }
             ]
         },
         {
             "name": "kate",
             "buildsystem": "cmake-ninja",
-            "sources":  [
+            "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/kate-20.12.3.tar.xz",
-                    "sha256": "81bc2d8afe1958186feec8b1b275da5d6eb52bd8b4fa154896d19830d628d4fd"
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/kate-22.12.3.tar.xz",
+                    "sha256": "5bfb05b8dad0c3c7301da0a1998d41de7acf0ec18f40912a59b3e855188f443e",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kate-$version.tar.xz"
+                    }
                 }
             ]
         }
