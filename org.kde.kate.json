@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/konsole-23.04.1.tar.xz",
-                    "sha256": "b9d1149afbf93cacc2c57c5b641511c871d5e70d929f7290d3bdf16b5b04b698",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/konsole-23.04.2.tar.xz",
+                    "sha256": "acc9565ede884284760e1b04654d2b187da82afde82c8a0411664943f23eecea",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kate-23.04.1.tar.xz",
-                    "sha256": "5c384b0fe9706840e4064c71a45069b80da0448c11bfa2debf9dd5953b8e17f0",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kate-23.04.2.tar.xz",
+                    "sha256": "7db103a3cb0f1cd771d4e63389ded0757d815f14b9a260b918d83c3e96f74485",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
