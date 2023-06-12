@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/markdownpart-23.04.0.tar.xz",
-                    "sha256": "db40f4e6b2aa69fca3560c72aed7a5adbcab07ceeca4382f7fd62156b19d5bc0",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/markdownpart-23.04.2.tar.xz",
+                    "sha256": "fc0e09f300ca8463fb59b8df8a40b27121ca82996182b2f82c5bf441d86cd003",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
