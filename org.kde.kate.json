@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kate",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "kate",
     "rename-icon": "kate",
@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/markdownpart-23.08.5.tar.xz",
-                    "sha256": "32905b77e393f625c388c414b9e350d8152856e6931566d5f2b8c35ed6d5ebf2",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/markdownpart-24.02.0.tar.xz",
+                    "sha256": "6bbf72298f21c502208aed3fefa55302d89c506a5ee75d2565d4645345344bc9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/konsole-23.08.5.tar.xz",
-                    "sha256": "c6fb20753ac27a46bce62e31f7b105b6b99497035830b34a7bba1bc60260c1ca",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/konsole-24.02.0.tar.xz",
+                    "sha256": "2915edcd856552bd6199efb23dcaf194605ee4fb307c75e27606198253dfdfe0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kate-23.08.5.tar.xz",
-                    "sha256": "683c49d9c4b2abd4b4660b607b65249a2adfdc48418b0d18ab90810d1a8f4e37",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/kate-24.02.0.tar.xz",
+                    "sha256": "9b1efcccf4e36efcdbc2eada6399cd8128ce187a19182400313062f75ee35f48",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
