@@ -13,7 +13,8 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.UDisks2",
-        "--talk-name=org.freedesktop.Flatpak"
+        "--talk-name=org.freedesktop.Flatpak",
+        "--env=XDG_CURRENT_DESKTOP=kde"
     ],
     "cleanup": [
         "/share/zsh",
