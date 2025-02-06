@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/markdownpart-24.12.1.tar.xz",
-                    "sha256": "563e70dcf5ac857309f675ae6cce2403a8b6daa1f5711a9ffebcf4748e2f458b",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/markdownpart-24.12.2.tar.xz",
+                    "sha256": "c109c11a682c92cae70332163c5d3bb8a6ac6163101926f4c31fc46fd76c71b3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/konsole-24.12.1.tar.xz",
-                    "sha256": "43deca40b7fcddc340db12f08d0a63c538f1e540e9919b075a2f905e7a32cb3c",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/konsole-24.12.2.tar.xz",
+                    "sha256": "24586c3c83f9ca2b814c5319e4aeef885adccfccd94e9c45dba5c1574bb77262",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/kate-24.12.1.tar.xz",
-                    "sha256": "ec4830a8a2ade45e9a90a219d8e1656e408d229c2005de109e69a5e27a0bfaba",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/kate-24.12.2.tar.xz",
+                    "sha256": "5d2608993594f7ba478e9a17072a9324134ecf86f594f39df482a3c11a97f88e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
