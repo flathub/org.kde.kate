@@ -19,6 +19,7 @@
     "cleanup": [
         "/share/zsh",
         "/share/man",
+        "/share/doc",
         "/bin/kwrite"
     ],
     "modules": [
